@@ -27,9 +27,10 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
+    margin:0 200px ;
 }
 
-.nav-title{
+.nav-title{ 
 
     color: Dark 01;
     font-size:45px;
@@ -49,4 +50,20 @@ nav a{
 
     text-decoration: none;
     color: Dark 02;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+
+    padding: 30px 30px 30px 150px;
+    display:flex;
+    align-items: center;
+}
+.banner .profile-picture {
+
+width: 500px;
 }
